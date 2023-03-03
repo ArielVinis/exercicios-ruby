@@ -4,7 +4,7 @@ Dentro de cada pasta de exercício contém seu próprio README com a proposta do
 
 Cada exercício contém testes RSPEC para que possamos validar o método e entender se está atendendo ao que foi proposto.
 
-Irei iniciar em fundamentos ruby usando lógica de programação básica. Hoje estou em coleções:
+Iremos iniciar em fundamentos ruby usando lógica de programação básica. Hoje estou em coleções:
 --> Encontre a posição
 --> Arrays multidimensionais
 --> Manipulando Arrays
