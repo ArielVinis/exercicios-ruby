@@ -13,7 +13,7 @@ Irei iniciar em fundamentos ruby usando lógica de programação básica. Hoje e
 
 Alcançarei a etapa de Orientado a Objetos.
 
-Minha proposta é fazer um exercício por semana, até chegar em um momento onde eu possa usar o ruby para treinar lógicas mais avançadas:
+Minha proposta é fazer um exercício por semana, até chegar em um momento onde a gente possa usar o ruby para treinar lógicas mais avançadas:
 --> Inicializando classes
 --> Definindo métodos de classes
 --> Objetos dentro de objetos
