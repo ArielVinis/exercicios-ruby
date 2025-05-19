@@ -1,22 +1,22 @@
 class Uri
   attr_reader :code_product, :units_product, :prices_product
 
-  # To initialize the properties of a class we can use the initialize method
-  # which is called before any method.
+  # Para inicializar as propriedades de uma classe podemos usar o método initialize
+  # que é chamado antes de qualquer método.
   def initialize(code_product:, units_product:, prices_product:)
     @code_product = code_product
     @units_product = units_product
     @prices_product = prices_product
   end
 
-  # zip method creates an array of arrays according to its index, example:
+  # O método zip cria um array de arrays de acordo com seu índice, exemplo:
      # a = [1, 2, 3]
      # b = [4, 5, 6]
      # a.zip(b) = [[1, 4], [2, 5], [3, 6]]
 
-  # .map generates a new array by multiplying each array of arrays generating the values of each purchased item
-  # .reduce takes these values from purchased items and sums them back to a final result
-  # .then passes the parameter q is between | q is the result of the previous expression
+  # .map gera um novo array multiplicando cada array de arrays gerando os valores de cada item comprado
+  # .reduce pega esses valores dos itens comprados e soma-os de volta para um resultado final
+  # .then passa o parâmetro q está entre | q é o resultado da expressão anterior
   def calculate_purchases
     units_product.zip(prices_product)
                  .map { |arr| arr.reduce(:*) }
